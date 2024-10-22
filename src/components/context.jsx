@@ -5,7 +5,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 const AppContext = createContext();
 
 const apiKey = import.meta.env.VITE_API_KEY;
-export const api = `http://www.omdbapi.com/?apikey=${apiKey}`;
+export const api = `https://www.omdbapi.com/?apikey=${apiKey}`;
 
 const AppProvider = ({ children }) => {
   const [movies, setMovies] = useState([]);

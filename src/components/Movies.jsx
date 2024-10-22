@@ -32,18 +32,3 @@ const Movies = () => {
 };
 
 export default Movies;
-
-/*
-
-<NavLink
-              className="col-sm-6 col-md-4 col-lg-3"
-              to={`movie/${imdbID}`}
-              key={imdbID}
-            >
-                <div className="card">
-                  <h2 className="card-title">{Title}</h2>
-                  <img className="img-fluid" src={Poster} alt={Poster} />
-                </div>
-            </NavLink>
-
-*/
