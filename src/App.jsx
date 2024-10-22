@@ -3,7 +3,6 @@ import Home from "./components/Home";
 import Movies from "./components/Movies";
 import SingleMovie from "./components/SingleMovie";
 import ErrorPage from "./components/ErrorPage";
-import "./App.css"
 
 const App = () => {
   return (
